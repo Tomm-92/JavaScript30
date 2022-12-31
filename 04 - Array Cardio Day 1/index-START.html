@@ -60,6 +60,10 @@
       return a.year - b.year;
     });
 
+    const orderedList1 = inventors.sort((a, b) => (
+      a.year > b.year)
+    );
+
     const ordered = inventors.sort((a, b) => a.year > b.year ? 1: -1);
     
 
